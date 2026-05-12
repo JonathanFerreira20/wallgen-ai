@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>WallGen AI</title>
+
+    <link rel="icon" type="image/png" href="assets/icon-192.png.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="theme-color" content="#00f5ff">
+
+</head>
+<body>
+
+    <!-- TELA INICIAL -->
+<div class="intro-screen">
+
+  <div class="intro-content">
+
+    <h1>WallGen AI</h1>
+
+    <p>
+      Gerando experiências futuristas...
+    </p>
+
+    <div class="intro-loader"></div>
+
+  </div>
+
+</div>
+
+    <!-- Header -->
+    <header>
+
+        <h1>WallGen AI</h1>
+
+    </header>
+
+    <!-- Hero Section -->
+
+        <section class="hero">
+           
+            <h2>
+                Transforme sua tela em inspiração
+            </h2>
+
+            <p>
+                Crie walpapers futuristas personalizados com frases motivacionais.
+            </p>
+
+            <button>
+                Criar Wallpaper
+            </button>
+        
+        </section>
+
+        <!-- GERADOR -->
+         <section class="generator">
+
+            <!-- PAINEL -->
+             <div class="panel">
+                <h3>Personalização</h3>
+
+                <!-- TEMAS -->
+                 <div class="themes">
+                    <button id="futuristic">Futurista</button>
+                    <button id="anime">Anime</button>
+                    <button id="technology">Tecnologia</button>
+                    <button id="gym">Academia</button>
+                 </div>
+
+                 <!-- FRASES -->
+                  <div class="phrase-area">
+                    <textarea placeholder="Digite sua frase..."></textarea>
+                  </div>
+
+                  <!-- BOTÃO -->
+                   <button class="generate-btn">
+                    Gerar Wallpaper
+                   </button>
+             </div>
+
+             <!-- PREVIEW -->
+              <div class="preview">
+                <div class="wallpaper">
+
+                    <div class="loading"></div>
+
+                    <div class="particles">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                    <p>
+                    </p>
+                    
+                    <button class="refresh-btn">
+                      ↻  
+                    </button>
+
+                </div>
+                <button class="download-btn">
+                    Baixar Wallpaper
+                </button>
+              </div>
+         </section>
+   
+         <!-- Footer -->
+          <footer>
+            <p>
+                © 2026 WallGen AI - Todos os direitos reservados.
+            </p>
+          </footer>
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>   
+
+    <script src="script.js"></script>
+</body>
+</html>
