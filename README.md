@@ -35,6 +35,5 @@ The application is fully responsive and optimized for both desktop and mobile de
 * More animated themes
 
 ## 👨‍💻 Author
-Jonathan Ferreira
 
 Jonathan Ferreira
